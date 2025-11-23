@@ -39,7 +39,7 @@ Recently, leadership noticed that **the technical debt of 33% was accumulated du
 
 ---
 
-Dataset Metadata
+## Dataset Metadata
 The project uses six CSV files, but focuses on specific columns to answer the technical questions.
 
 | Table | Description | Key Columns |
@@ -125,7 +125,7 @@ Resources vulnerability rate
 
 ---
 
-## ROOT CAUSE INSIGHTS
+### ROOT CAUSE INSIGHTS
 
 - High vulnerability rate is due to risk in *Critical* and *High* level of severity.
 - Payment (150) and User-frontend teams (146) have the highest critical vulnerabilities.
@@ -137,11 +137,15 @@ critical vulnerabilities are widespread across the teams, not just a team.
 ---
 
 ## RECOMMENDATIONS
+*Cloud Operation Lead should immediately terminate 477 zombie servers to reduce the cloud waste by 5-8%.
+*CFO & CLoud Operation Lead should implement auto-shutdown and remove 2,166 idle servers.
+*Platform Engineering Team should modernize the 4,556 legacy servers to lower modernization debt from 33%.
+*Security Engineering Team should prioritize fixing 2,394 Critical and High vulnerabilities to reduce the vulnerability rate below 5%.
+*Engineering Managers (All Teams) should take responsibility for resources tagged to their team.
 
+---
 
-
-
-## WHY THE FIX WILL WORK
+### WHY THE FIX WILL WORK
 
 - **Reducing vulnerability rate of 15% to <5%**
 20% of Actual server = 2,739 , 90% of risk come from Critical + High vulnerability.
