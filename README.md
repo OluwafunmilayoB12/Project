@@ -108,6 +108,7 @@ Resources vulnerability rate
 			(vr.vulnerable_resources * 100.0 / tr.Actual_server) as vulnerability_rate
 	FROM total_resource tr
 	CROSS JOIN vulnerable_resources vr;
+```
 
 ---
 
