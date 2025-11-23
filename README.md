@@ -127,7 +127,7 @@ Resources vulnerability rate
 
 ### ROOT CAUSE INSIGHTS
 
-- High vulnerability rate is due to risk in *Critical* and *High* level of severity.
+- High vulnerability rate is due to risk constituted in *Critical* and *High* level of severity.
 - Payment (150) and User-frontend teams (146) have the highest critical vulnerabilities.
 critical vulnerabilities are widespread across the teams, not just a team.
 - **2,166 Idle servers** <5% cpu increase server count with no business value and leads to paying for unused resources.
@@ -137,11 +137,11 @@ critical vulnerabilities are widespread across the teams, not just a team.
 ---
 
 ## RECOMMENDATIONS
-*Cloud Operation Lead should immediately terminate 477 zombie servers to reduce the cloud waste by 5-8%.
-*CFO & CLoud Operation Lead should implement auto-shutdown and remove 2,166 idle servers.
-*Platform Engineering Team should modernize the 4,556 legacy servers to lower modernization debt from 33%.
-*Security Engineering Team should prioritize fixing 2,394 Critical and High vulnerabilities to reduce the vulnerability rate below 5%.
-*Engineering Managers (All Teams) should take responsibility for resources tagged to their team.
+* Cloud Operation Lead should immediately terminate 477 zombie servers to reduce the cloud waste by 5-8%.
+* CFO & CLoud Operation Lead should implement auto-shutdown and remove 2,166 idle servers.
+* Platform Engineering Team should modernize the 4,556 legacy servers to lower modernization debt from 33%.
+* Security Engineering Team should prioritize fixing 2,394 Critical and High vulnerabilities to reduce the vulnerability rate below 5%.
+* Engineering Managers (All Teams) should take responsibility for resources tagged to their team.
 
 ---
 
@@ -149,7 +149,7 @@ critical vulnerabilities are widespread across the teams, not just a team.
 
 - **Reducing vulnerability rate of 15% to <5%**
 20% of Actual server = 2,739 , 90% of risk come from Critical + High vulnerability.
-Critical + High vulnerabities = 2,394(70%).
+- Critical + High vulnerabities = 2,394(70%).
 
 - Fixing it will reduce the resource vulnerability rate massively.
 
