@@ -54,4 +54,4 @@ The project uses six CSV files, but focuses on specific columns to answer the te
 
 ## 🧾 DECISION TABLE — DATA QUALITY & CLEANING STRATEGY
 
-📎 **Visual Reference:**
+📎 **Visual Reference:** ![Decision Table](https://github.com/OluwafunmilayoB12/Project/blob/main/DecisionTable.png)
