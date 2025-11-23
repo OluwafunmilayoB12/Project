@@ -82,7 +82,7 @@ Before analysis, the following are tested hypotheses:
 2.  **Most legacy servers are underutilized → True** – Indicating technical debt
 3. **Majority of teams are still running on legacy server → True** – The five teams contributed to the modernization debt 
 
-Applied the **BAIIR** Framework (*Baseline, Analysis, Insight, Impact, Recommendation*) document the analysis for clarity.
+Applied the **BAIIR** Framework (*Baseline, Analysis, Insight, Impact, Recommendation*) to document the analysis for clarity.
 
 ---
 
@@ -109,4 +109,16 @@ Resources vulnerability rate
 	FROM total_resource tr
 	CROSS JOIN vulnerable_resources vr;
 
+---
+
+## RESULTS AND VISUALS
+
+### VISUAL 1 - Cloud Vulnerability Overview
+![Visual 1]
+
+### VISUAL 2 
+![Visual 2]
+
+### VISUAL 3
+![Visual 3]
 
