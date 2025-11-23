@@ -114,11 +114,43 @@ Resources vulnerability rate
 ## RESULTS AND VISUALS
 
 ### VISUAL 1 - Cloud Vulnerability Overview
-![Visual 1]
+![Visual 1](https://github.com/OluwafunmilayoB12/Project/blob/main/Visual%201.png)
 
 ### VISUAL 2 
-![Visual 2]
+![Visual 2](https://github.com/OluwafunmilayoB12/Project/blob/main/Visual%202.png)
 
 ### VISUAL 3
-![Visual 3]
+![Visual 3](https://github.com/OluwafunmilayoB12/Project/blob/main/Visual%203.png)
 
+---
+
+## ROOT CAUSE INSIGHTS
+
+- High vulnerability rate is due to risk in *Critical* and *High* level of severity.
+- Payment (150) and User-frontend teams (146) have the highest critical vulnerabilities.
+critical vulnerabilities are widespread across the teams, not just a team.
+- **2,166 Idle servers** <5% cpu increase server count with no business value and leads to paying for unused resources.
+- legacy server dependency representing a major contributor to modernization debt and operational risk.   
+- **477 zombie server** still running and incurring cost after decommission date.
+
+---
+
+## RECOMMENDATIONS
+
+
+
+
+## WHY THE FIX WILL WORK
+
+- **Reducing vulnerability rate of 15% to <5%**
+20% of Actual server = 2,739 , 90% of risk come from Critical + High vulnerability.
+Critical + High vulnerabities = 2,394(70%).
+
+- Fixing it will reduce the resource vulnerability rate massively.
+
+- **Reducing total vulnerability 3,416 by 60%**
+Fixing the Critical and High vul will achieve:
+- 70% reduction
+- below the target   1366 (3416 * 60%).
+- **Automation** prevents recurrence.
+- **Immediate terminations** will drive 5–8 % instant savings. 
