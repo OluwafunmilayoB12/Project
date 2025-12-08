@@ -27,15 +27,15 @@ Recently, leadership noticed that **the technical debt of 33% was accumulated du
 
 | Metric | Value | Interpretation |
 |---------|--------|----------------|
-| Resource Vulnerability Rate  | 25% | exposure to security risk |
+| Resource Vulnerability Rate  | 25% | *Increased from a baseline of 15% to 25%*, showing **10% increase** in exposed resources to security risk |
 | Critical Vulnerability Count | 704| High number of severe vulnerabilities that require urgent fix  |
 | Total vulnerability | 3,416 | security vulnerabilities across the cloud environment needed to be fixed|
-| Healthy server | 11,464 | support stable platfrom operations |
-| Idle server | 2,166 | Large number of underutilized server generating unnecessary cost, to be shutdown |
-| Actual server | 13,698 | active servers  |
-| Modernization Debt | 33% | servers are still running on outdated technology, increasing technical debt |
-| Legacy server | 4,556 | more prone to inefficiency and vulnerabilities |
-| Modern server | 9,142 | updated server supporting better performance |
+| Healthy server | 11,464 | Healthy servers *ranged from 2-39 between June 30 and Aug 27,spiked to 494 on Aug 28*, then stabilized at 10,343 on Aug 29|
+| Idle server | 2,166 | *idle servers jumped from 0-6 (Jun 30- Aug 27)* to **2,061 in two days (Aug 28-29)** generating unnecessary cost and resource inefficiency |
+| Actual server | 13,698 | Out of 13,698 servers, 9,142 are modern and 4,556 are older. Most of the server is fine but the older servers lead to business risks  |
+| Modernization Debt | 33% | *One-third of the servers* are still running on outdated technology, increasing technical debt |
+| Legacy server | 4,556 | 33% of servers that are outdated and more prone to inefficiency and vulnerabilities |
+| Modern server | 9,142 | 67% of updated server supporting better performance |
 
 ---
 
@@ -117,10 +117,10 @@ Resources vulnerability rate
 ### VISUAL 1 - Cloud Vulnerability Overview
 ![Visual 1](https://github.com/OluwafunmilayoB12/Project/blob/main/Visual%201.png)
 
-### VISUAL 2 
+### VISUAL 2 Performance
 ![Visual 2](https://github.com/OluwafunmilayoB12/Project/blob/main/Visual%202.png)
 
-### VISUAL 3
+### VISUAL 3 - Io Fix and Recommendation
 ![Visual 3](https://github.com/OluwafunmilayoB12/Project/blob/main/Visual%203.png)
 
 ---
