@@ -88,12 +88,12 @@ Applied the **BAIIR** Framework (*Baseline, Analysis, Insight, Impact, Recommend
 | Metric | Value | Interpretation |
 |---------|--------|----------------|
 | Resource Vulnerability Rate  | 25% | *Increased from a baseline of 15% to 25%*, showing **10% increase** in exposed resources to security risk |
+| Total vulnerability | 3,416 | Overall security vulnerabilities across the cloud environment needed to be fixed, including **Medium 29.9%**, **High 49.5%** and **Critical vulnerability 20.6%**|
 | Critical Vulnerability Count | 704| High number of severe vulnerabilities that require urgent fix  |
-| Total vulnerability | 3,416 | security vulnerabilities across the cloud environment needed to be fixed|
-| Healthy server | 11,464 | Healthy servers *ranged from 2-39 between June 30 and Aug 27,spiked to 494 on Aug 28*, then stabilized at 10,343 on Aug 29|
-| Idle server | 2,166 | *idle servers jumped from 0-6 (Jun 30- Aug 27)* to **2,061 in two days (Aug 28-29)** generating unnecessary cost and resource inefficiency |
-| Actual server | 13,698 | Out of 13,698 servers, 9,142 are modern and 4,556 are older. Most of the server is fine but the older servers lead to business risks  |
-| Modernization Debt | 33% | *One-third of the servers* are still running on outdated technology, increasing technical debt across all teams |
+| Healthy server | 11,464 | Healthy servers ranged from **2-39** between June 30 and Aug 27,spiked to **494** on Aug 28, then stabilized at **10,343** on Aug 29|
+| Idle server | 2,166 | idle servers stayed between **0-6** (Jun 30- Aug 27) then jumped to **2,061 within two days (Aug 28-29)** generating unnecessary cost and resource inefficiency |
+| Actual server | 13,698 | Out of 13,698 servers, **9,142 are modern** and **4,556 are older**. Most of the server is fine but the older servers lead to business risks  |
+| Modernization Debt | 33% | **One-third of the servers** are still running on outdated technology, increasing technical debt across all teams |
 | Legacy server | 4,556 | 33% of servers that are outdated causing inefficiency |
 | Modern server | 9,142 | 67% of updated server supporting better performance |
 
