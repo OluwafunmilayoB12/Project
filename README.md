@@ -26,7 +26,7 @@ Recently, leadership noticed that **the technical debt of 33% was accumulated du
 ### Problem Statement
  TechNova is experiencing significant operational friction and accumulated technical debt that built up during the growth-at-all-cost phase, this affects the CTO & Engineering Managers by increasing the platform inefficiency and stability.
  We need to run Root Cause Analysis & trend analysis to perform a full audit of all cloud resources,
- to identify and reduce technical debt and critical vulnerabilities, aiming to lower the percentage of affected resources to below 5% and decrease the total vulnerability count by at least 60% after remediation.
+ to identify and reduce technical debt and critical vulnerabilities, aiming to lower the percentage of affected resources to below 10% and decrease the total vulnerability count by at least 60% after remediation.
 
 ### Stakeholders
 
@@ -98,6 +98,8 @@ Applied the **BAIIR** Framework (*Baseline, Analysis, Insight, Impact, Recommend
 | Modernization Debt | 33% | **One-third of the servers** are still running on outdated technology, increasing technical debt across all teams |
 | Legacy server | 4,556 | 33% of servers that are outdated causing inefficiency |
 | Modern server | 9,142 | 67% of updated server supporting better performance |
+| Idle Server Cost | $5,357.11/month | 2,166 idle (<5% CPU) resources generating cost with no business value |
+| Zombie Server Cost | $200.37/month | 477 servers still incurring cost after their scheduled decommission date |
 
 ---
 
@@ -147,24 +149,27 @@ https://app.powerbi.com/view?r=eyJrIjoiMmJmNmM5NGItYzFiNC00YmIwLWE5NmYtOWFlYWU2N
 - High vulnerability rate is due to risk constituted in *Critical* and *High* level of severity.
 - Payment (150) and User-frontend teams (146) have the highest critical vulnerabilities.
 Critical vulnerabilities are widespread across the teams, not just a team.
-- **2,166 Idle servers** <5% cpu increase server count with no business value and leads to paying for unused resources.
+- **2,166 Idle servers** <5% cpu increase server count, generate no business value while costing 
+  **$5,357.11/month** in unused resource spend.
 - Legacy server dependency representing a major contributor to modernization debt and operational risk.   
-- **477 zombie server** still running and incurring cost after decommission date.
+- **477 zombie server** still running post-decommission are costing 
+  **$200.37/month** in avoidable spend.
 
 ---
 
 ## RECOMMENDATIONS
-* Cloud Operation Lead should immediately terminate 477 zombie servers to reduce the cloud waste by 5-8%.
-* CFO & Cloud Operation Lead should implement auto-shutdown and remove 2,166 idle servers.
+* Cloud Operation Lead should immediately terminate 477 zombie servers, recovering **$200.37/month (~$2,404/year)** in avoidable spend.
+* CFO & Cloud Operation Lead should implement auto-shutdown and remove 2,166 idle servers, recovering **$5,357.11/month (~$64,285/year)**.
 * Platform Engineering Team should modernize the 4,556 legacy servers to lower modernization debt from 33%.
-* Security Engineering Team should prioritize fixing 2,394 Critical and High vulnerabilities to reduce the vulnerability rate below 5%.
+* Security Engineering Team should prioritize fixing 2,394 Critical and High vulnerabilities, reducing the resource-level vulnerability rate from 25% to 7.46% — a 70% reduction in exposed resources.
 * Engineering Managers (All Teams) should take responsibility for resources tagged to their team.
 
 ---
 
 ### WHY THE FIX WILL WORK
 
-- **Reducing vulnerability rate of 15% to <5%**
+- **Reducing vulnerability rate from 25% to 7.46%
+Fixing the 2,394 Critical and High vulnerabilities removes 70% of affected resources from the vulnerable pool, cutting the resource-level vulnerability rate by roughly two-thirds.**
 20% of Actual server = 2,739 , 90% of risk come from Critical + High vulnerability.
   Critical + High vulnerabities = 2,394(70%).
 
@@ -175,4 +180,5 @@ Fixing the Critical and High vulnerabilities will achieve:
 1. 70% reduction
 2. below the target   1366 (3416 * 60%).
 - **Automation** prevents recurrence.
-- **Immediate terminations** will drive 5–8 % instant savings. 
+- **Combined recoverable spend**: $5,557.48/month (~$66,690/year) across 
+  zombie shutdown and idle right-sizing 
